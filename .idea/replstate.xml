@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1440791654665">{:repl-history {:ide [], :local [&quot;(defn foo [n] (+ n 1))&quot; &quot;foo&quot; &quot;(use 'one-two)&quot; &quot;(defn pascal [row col]\n      (cond (and (= row 2) (or (= col 0) (= col 2))) 1\n            (and (= row 2) (= col 1)) 2\n            (= row 0) 1\n            (= row 1) 1\n            (= col 0) 1\n            (= col row) 1\n            (= col (- row 1)) (+ (pascal (- row 1) (- col 1))\n                                 1)\n            :else (+ (pascal (- row 1) (- col 1))\n                     (pascal (- row 1) col))))&quot; &quot;(in-ns 'one-two)&quot; &quot;foo &quot; &quot;(factorial 4)&quot; &quot;(factorial 6)&quot;], :remote []}}</component>
+</project>
